@@ -17,7 +17,7 @@ const About = () => {
               specializing in Web Development, Software Development, and Database Management. Proficient in multiple programming languages 
               and frameworks, I aim to contribute to innovative projects by leveraging my strong foundation, curiosity for emerging 
               technologies, and dedication to delivering high-quality solutions."</p>
-              <a href='https://drive.google.com/file/d/1AwH2W8TnMxXoghHvlN9Ju2q563uCcx-H/view?usp=share_link' className='btn'>Download Resume</a>
+              <a href='https://drive.google.com/file/d/16NBMVAgyw5jb3OEkDruXxDCH92iuj6xe/view?usp=share_link' className='btn'>Download Resume</a>
             </div>
 
             <div className='about_skills grid'>
