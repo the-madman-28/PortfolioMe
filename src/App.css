@@ -1,0 +1,21 @@
+.main {
+    background-color: rgb(221, 241, 253);
+    background: scroll;
+}
+
+.copyright {
+    color: rgb(245, 15%, 65%);    
+}
+
+.nav_footer {
+    color: #110c0c;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+       .main {
+        margin-left: 0;
+       } 
+}
