@@ -20,7 +20,7 @@ const Home = () => {
 
         <HeaderSocials/>
 
-        <a href='https://nitinport.vercel.app/' className='btn'>Hire Me</a>
+        <a href='https://drive.google.com/file/d/14fAOfKFG67V7Xgp0F99SSflT00nllONn/view?usp=share_link' className='btn'>Hire Me</a>
 
         <ScrollDown/>
       </div>
