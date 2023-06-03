@@ -32,7 +32,7 @@ const Menu = [
       id: 4,
       image: Work4,
       title: "Machine Learning with R",
-      category: "Macine Learning",
+      category: "Machine Learning",
       link: 'https://www.udemy.com/certificate/UC-6e6cab94-ef4f-4361-bb89-202ff0e5f434/',
     },
     , 
