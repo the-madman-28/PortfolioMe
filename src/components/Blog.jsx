@@ -3,7 +3,7 @@ import './blog.css';
 
 import Image2 from '../assets/clock.jpg';
 import Image1 from '../assets/dice.jpg';
-import Image3 from '../assets/edusite.jpg';
+import Image3 from '../assets/todo.jpg';
 
 const Blog = () => {
   return (
@@ -44,13 +44,13 @@ const Blog = () => {
 
         <div className='blog_card'>
           <div className='blog_thumb'>
-            <a href='https://github.com/the-madman-28/Code-Knight'><span className='blog_category'>Learning Website</span></a>
-            <a href='https://code-knight.netlify.app/'><img src={Image3} alt="" className='blog_img' /></a>
+            <a href='https://github.com/the-madman-28/To-do-list'><span className='blog_category'>To-Do App</span></a>
+            <a href='https://to-do-list-l8wu6w8sv-the-madman-28.vercel.app/'><img src={Image3} alt="" className='blog_img' /></a>
           </div>
           <div className='blog_details'>
-            <p className='blog_title'>The website under development utilizes Bootstrap, CSS, and JavaScript to create a programming learning platform. It will also incorporate backend technologies such as node.js and MongoDB for enhanced functionality.</p>
+            <p className='blog_title'>The app is built with Vite and ReactJS, utilizing hooks like useEffect and useState. These hooks enable functionality such as task completion and deletion, enhancing the app's interactive capabilities.</p>
             <div className='blog_meta'>
-              <span>March, 2023</span>
+              <span>June, 2023</span>
             </div>
           </div>
         </div>
