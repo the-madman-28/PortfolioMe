@@ -3,7 +3,7 @@ import './blog.css';
 
 import Image2 from '../assets/clock.jpg';
 import Image1 from '../assets/dice.jpg';
-import Image3 from '../assets/todo.jpg';
+import Image3 from '../assets/todo.png';
 
 const Blog = () => {
   return (
