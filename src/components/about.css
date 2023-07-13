@@ -1,6 +1,7 @@
 .about_container {
     grid-template-columns: 2fr 9fr;
     column-gap: 1.875rem;
+    margin-top: 1.875rem;
 }
 
 .about_data {
