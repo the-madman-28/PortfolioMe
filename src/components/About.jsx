@@ -3,7 +3,7 @@ import './about.css';
 import Image from '../assets/profile_img.jpg';
 
 
-const About = () => {
+const About = () => { 
   return (
       <section className='about container section' id='about'>
         <h2 className='section_title'>About Me</h2>

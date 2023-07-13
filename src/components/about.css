@@ -14,7 +14,10 @@
     position: relative;
 }
 
-.about_data::before {
+.about_img {
+    margin-top: 2rem;
+}
+.about_data::before {  
     content: '';
     width: 0;
     height: 0;
