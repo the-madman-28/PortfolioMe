@@ -3,7 +3,7 @@ import Work2 from '../assets/react.jpg';
 import Work3 from '../assets/python.jpg';
 import Work4 from '../assets/ml.jpg';
 import Work5 from '../assets/jpm.jpg';
-import Work6 from '../assets/Robotics.jpg';
+import Work6 from '../assets/mysql.jpg';
 
 const Menu = [
     {
@@ -23,9 +23,9 @@ const Menu = [
     {
       id: 3,
       image: Work3,
-      title: "Python PCEP",
+      title: "Python For Beginners Course",
       category: "Python",
-      link: 'https://www.udemy.com/certificate/UC-8004645b-fa8b-4fc9-a8ea-a8c5e8e7a756/',
+      link: 'https://www.udemy.com/certificate/UC-4e03de7d-315f-448a-a06b-c5c7a301c60b/',
     },
     ,
     {
@@ -47,9 +47,9 @@ const Menu = [
     {
       id: 6,
       image: Work6,
-      title: "STEM Electronics/Robotics design and prototyping tinkering: EdgeFX Technologies",
-      category: "STEM",
-      link: 'https://drive.google.com/file/d/1mpynQmAwHKf5O3ujkrCI-L0GrAA3nT97/view',
+      title: "MySQL Database Development Mastery",
+      category: "MySQL",
+      link: 'https://www.udemy.com/certificate/UC-583358a5-1fb8-45e3-8a4c-97b5e3cd41f8/',
     },
   ];
 
