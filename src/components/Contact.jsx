@@ -38,7 +38,7 @@ const Contact = () => {
       <div className='contact_container grid'>
         <div className='contact_info'>
           <h3 className='contact_title'>Let's talk about everything!</h3>
-          <p className='contact_details'>Don't like forms? Send me an email.</p>
+          <p className='contact_details'>Send me an email.</p>
         </div>
 
         <form ref={form} onSubmit={sendEmail} className='contact_form'>
