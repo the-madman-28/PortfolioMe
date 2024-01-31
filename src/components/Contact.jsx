@@ -1,18 +1,18 @@
-import React from 'react';
-import { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
 
 const Contact = () => {
   const form = useRef();
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        'service_nhz0ilu', 
-        'template_14g3btp', 
+        'service_nhz0ilu',
+        'template_14g3btp',
         form.current,
         '2ZUnLBdz5mu5jFNS0'
       )
@@ -20,13 +20,17 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log('Message sent successfully!');
+          setIsPopupVisible(true);
+          setTimeout(() => {
+            setIsPopupVisible(false);
+          }, 3000); // Close popup after 3 seconds
         },
         (error) => {
           console.log(error.text);
           console.log('Error sending message.');
         }
       );
-
+  
     // Reset the form after submission if needed
     e.target.reset();
   };
@@ -84,6 +88,11 @@ const Contact = () => {
             Send Message
           </button>
         </form>
+
+        <div className='popup-container' style={{ display: isPopupVisible ? 'block' : 'none' }}>
+      <span className='close-popup' onClick={() => setIsPopupVisible(false)}>&times;</span>
+      <p>Message sent successfully!</p>
+    </div>
       </div>
     </section>
   );
