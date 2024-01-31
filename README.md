@@ -1,4 +1,4 @@
-# Portfolio Site README
+# Portfolio Site
 
 Hey there! 👋 Welcome to the README for my personal portfolio site code. I'm Nitin Babu, the developer behind this project.
 
