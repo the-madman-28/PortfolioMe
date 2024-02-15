@@ -20,7 +20,7 @@ const Home = () => {
 
         <HeaderSocials/>
 
-        <a href='https://drive.google.com/file/d/1_DmLzEY749kOYWaJEDtue5ficxp1s7WZ/view?usp=sharing' className='btn'>Hire Me</a>
+        <a href='https://drive.google.com/file/d/1I8IBz_9bf7rL7_6kqQxA0P11D2r9i8D6/view?usp=sharing' className='btn'>Hire Me</a>
 
         <ScrollDown/>
       </div>
